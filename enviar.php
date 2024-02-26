@@ -1,9 +1,9 @@
 <?php
 
-    $name = addslashes($_POST['name']);
-    $email = addslashes($_POST['email']);
+    $name = addslashes($_POST['full-name']);
+    $email = addslashes($_POST['e-mail']);
     $phone = addslashes($_POST['phone-number']);
-    $message = addslashes($_POST['message']);
+    $message = addslashes($_POST['textarea-message']);
 
     $to = $email;
     $assunto = "Contato de: " . $email;
