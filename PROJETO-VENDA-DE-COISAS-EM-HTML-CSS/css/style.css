@@ -1,0 +1,124 @@
+/* reset.css */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    background-color: #333;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    color: blue;
+    font-size: 20px;
+}
+
+p,
+label {
+    color: blue;
+    font-size: 16px;
+}
+
+.main-title {
+    color: #fff;
+}
+
+.main-paragraph {
+    color: #fff;
+}
+
+/* inputs estilization */
+input {
+    border: none;
+    border-bottom: 1px solid blue;
+    padding: 10px 0;
+}
+
+input[type="text"],
+input[type="number"],
+textarea {
+    width: 400px;
+}
+
+textarea {
+    padding: 10px 5px;
+}
+
+/* page header */
+.header {
+    height: 178px;
+    padding: 30px;
+    background-color: #31dc36;
+}
+
+.header h3 {
+    color: #fff;
+}
+
+.form-container {
+    background-color: #fff;
+    width: 60%;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    padding: 20px;
+    top: -62px;
+}
+
+.form-header {
+    border-bottom: 1px solid #dfdfdf;
+    height: 160px;
+}
+
+.form-header .form-title {
+    color: #873;
+    border-bottom: 1px solid #873;
+    width: 177px;
+    text-align: center;
+    margin: 0 auto;
+    text-transform: uppercase;
+    height: 45px;
+    line-height: 45px;
+}
+
+.form-body {
+    padding: 30px;
+}
+
+.form-title {
+    margin-bottom: 15px;
+}
+
+.form-body p {
+    margin-bottom: 20px;
+}
+
+.required-field {
+    color: #d80835;
+}
+
+.box-input {
+    margin-bottom: 35px;
+}
+
+.btn-submit {
+    background-color: blue;
+    color: #fff;
+    border: 2px solid transparent;
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+
+.btn-submit:hover {
+    background-color: #fff;
+    border-color: blue;
+    color: blue;
+}

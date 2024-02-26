@@ -1,0 +1,33 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: pink;
+}
+
+.container {
+    margin: 25px 15px;
+    padding: 25px 15px;
+    background-color: #fff;
+    text-align: center;
+}
+
+/* Cabeçalho */
+.header {
+    margin: 25px auto;
+    background-color: #ddd;
+    padding: 25px auto;
+}
+
+.header p,
+.header figcaption {
+    font-style: italic;
+}
+
+/* Biografia de Larissa Manoela */
+.biography-container {
+    border: 1px dashed #ddd;
+}
+
+/* Mais informações */
+.moreinfo-container {
+    margin-top: 10px;
+}

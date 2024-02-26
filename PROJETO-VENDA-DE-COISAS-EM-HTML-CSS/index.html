@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Projeto de Venda de Coisas</title>
+        <link rel="stylesheet" href="css/style.css" />
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">
+                <h3 class="main-title">Projeto de Venda de Coisas</h3>
+            </div>
+            <div class="form-container">
+                <div class="form-header">
+                    <p class="form-title">Formulário</p>
+                </div>
+                <div class="form-body">
+                    <h1 class="form-header-secondtitle">Formulário de venda de coisas</h1>
+                    <p class="form-header-hint">Preencha esse formulário para vender suas coisas.</p>
+                    <form>
+                        <div class="box-input">
+                            <label for="thing-title-input">Título do seu produto: <span class="required-field">*</span></label>
+                            <input type="text" name="thing-title-input" class="thing-title-input" placeholder="Insira o título do produto, aqui" required />
+                        </div>
+                        <div class="box-input">
+                            <label for="thing-price-input">Preço do seu produto: <span class="required-field">*</span></label>
+                            <input type="number" name="thing-price-input" class="thing-price-input" placeholder="Insira o preço do produto, aqui" required />
+                        </div>
+                        <div class="box-input">
+                            <label for="thing-title-input">Descrição do seu produto: <span class="required-field">*</span></label>
+                            <textarea name="thing-description-input" class="thing-description-input" placeholder="Insira a descrição do produto, aqui" required></textarea>
+                        </div>
+                        <div class="box-input">
+                            <label for="thing-brand-options">Opções de marca do seu produto: <span class="required-field">*</span></label>
+                        </div>
+                        <div class="box-input">
+                            <label for="model">Modelo do seu produto: <span class="required-field">*</span></label>
+                            <input type="text" name="model" class="model" placeholder="Insira o modelo do produto, aqui" required />
+                        </div>
+
+                        <input type="submit" class="btn-submit" value="Enviar" />
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </body>
+</html>
